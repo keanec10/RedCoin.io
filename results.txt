@@ -1,0 +1,55 @@
+@ logistic regression : q = 1, C = 0.01; error = 2.6666666666666665
+@ logistic regression : q = 2, C = 0.01; error = 2.7266666666666666
+@ logistic regression : q = 3, C = 0.01; error = 2.286666666666666
+@ logistic regression : q = 4, C = 0.01; error = 2.2733333333333334
+@ logistic regression : q = 5, C = 0.01; error = 2.293333333333333
+@ logistic regression : q = 1, C = 0.1; error = 2.68
+@ logistic regression : q = 2, C = 0.1; error = 2.6799999999999997
+@ logistic regression : q = 3, C = 0.1; error = 2.293333333333333
+@ logistic regression : q = 4, C = 0.1; error = 2.3
+@ logistic regression : q = 5, C = 0.1; error = 2.3066666666666666
+@ logistic regression : q = 1, C = 1.0; error = 2.66
+@ logistic regression : q = 2, C = 1.0; error = 2.673333333333333
+@ logistic regression : q = 3, C = 1.0; error = 2.2800000000000002
+@ logistic regression : q = 4, C = 1.0; error = 2.2800000000000002
+@ logistic regression : q = 5, C = 1.0; error = 2.3066666666666666
+@ logistic regression : q = 1, C = 10.0; error = 2.6533333333333333
+@ logistic regression : q = 2, C = 10.0; error = 2.666666666666667
+@ logistic regression : q = 3, C = 10.0; error = 2.2733333333333334
+@ logistic regression : q = 4, C = 10.0; error = 2.2800000000000002
+@ logistic regression : q = 5, C = 10.0; error = 2.3066666666666666
+::: best logistic regression configuration : q = 4, C = 0.01; error of 2.2733333333333334 :::
+
+@ kNN : q = 1, k = 1; error = 2.16
+@ kNN : q = 2, k = 1; error = 2.0733333333333337
+@ kNN : q = 3, k = 1; error = 2.1333333333333333
+@ kNN : q = 4, k = 1; error = 2.18
+@ kNN : q = 5, k = 1; error = 2.1999999999999997
+@ kNN : q = 6, k = 1; error = 2.2199999999999998
+@ kNN : q = 1, k = 3; error = 2.2866666666666666
+@ kNN : q = 2, k = 3; error = 2.2800000000000002
+@ kNN : q = 3, k = 3; error = 2.2733333333333334
+@ kNN : q = 4, k = 3; error = 2.2666666666666666
+@ kNN : q = 5, k = 3; error = 2.213333333333333
+@ kNN : q = 6, k = 3; error = 2.34
+@ kNN : q = 1, k = 5; error = 2.7
+@ kNN : q = 2, k = 5; error = 2.6866666666666665
+@ kNN : q = 3, k = 5; error = 2.593333333333333
+@ kNN : q = 4, k = 5; error = 2.5999999999999996
+@ kNN : q = 5, k = 5; error = 2.586666666666667
+@ kNN : q = 6, k = 5; error = 2.5733333333333337
+@ kNN : q = 1, k = 7; error = 2.6133333333333333
+@ kNN : q = 2, k = 7; error = 2.6
+@ kNN : q = 3, k = 7; error = 2.6
+@ kNN : q = 4, k = 7; error = 2.5733333333333333
+@ kNN : q = 5, k = 7; error = 2.6066666666666665
+@ kNN : q = 6, k = 7; error = 2.6466666666666665
+@ kNN : q = 1, k = 9; error = 2.6933333333333334
+@ kNN : q = 2, k = 9; error = 2.6866666666666665
+@ kNN : q = 3, k = 9; error = 2.64
+@ kNN : q = 4, k = 9; error = 2.6199999999999997
+@ kNN : q = 5, k = 9; error = 2.6666666666666665
+@ kNN : q = 6, k = 9; error = 2.6466666666666665
+::: best kNN configuration : q = 2, k = 1; error of 2.0733333333333337 :::
+
+@ dummy classifier :  error = 2.3000000000000003
