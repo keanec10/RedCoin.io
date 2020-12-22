@@ -9,5 +9,7 @@ Xuechun Wang		//	wangx10
 
 To run:
 
+git clone git@github.com:keanec10/RedCoin.io.git
+cd RedCoin.io
 pip3 install -r requirements.txt
 python3 main.py
